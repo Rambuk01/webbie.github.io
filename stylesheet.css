@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Dette er standard instillinger for alle mine hjemmesiders styling */
+}
+
+html, body {
+    width: 100%;
+}
+
+.m1 {
+    margin: 8px;
+}
+.m2 {
+    margin: 12px;
+}
+.m3 {
+    margin: 16px;
+}
+
+.cp {
+    color: blue;
+}
+
+.cs {
+    color: aquamarine;
+}
+
+.cf {
+    color: red;
+}
+
+.cw {
+    color: white;
+}
+.bc1 {
+    background-color: yellow;
+}
+
+.bc2 {
+    background-color: black;
+}
+
+.banner {
+    transition: 3s;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        background-color: gray;
+      }
+  }
+  
+.banner:hover {
+    background-color: lightblue;
+    scale: 1.1;
+    font-size: 30px;
+    color: white;
+    opacity: 50%;
+}
+
+.links {
+    width: 60%;
+    margin: 0 auto; 
+    align-items: center;
+    padding: 8px;
+}
+
+.link-liste {
+    list-style: none;
+    border: 1px solid blue;
+    
+        
+}
+
+.link-items {
+    border: 1px solid red;
+    display: inline-block;
+    margin: 4.4%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.link-items:hover {
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

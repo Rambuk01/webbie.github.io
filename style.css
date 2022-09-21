@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlink {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 45px;
+    transition: 0.5s;
+}
+
+.navlink:hover {
+    background-color: grey;
+}
+
+.jesusbox {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin: 0px 65px;
+    background-color: black;
+    width: 90%;
+    color: white;
+}
+.overskrift {
+    width: 90%;
+    margin: 10px 65px;
+    background-color: rgb(255, 98, 0);
+    text-align: center;
+    line-height: 190px;
+    font-size: 75px;
+    color: white;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 0px solid black;
+    margin: 20px;
+}
+p {
+    padding: 0;
+}
+
+#one {
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
+
+.box {
+    background-color: aquamarine;
+}
+
+.bd {
+    border: 1px solid black;
+    box-shadow: 5px 10px 10px;
+}
+
+.text-primary {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
